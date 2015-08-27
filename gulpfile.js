@@ -64,7 +64,7 @@ gulp.task('css', function() {
 
 gulp.task('images', function() {
 	gulp.src(config.paths.images)
-		.pipe(gulp.dest(config.paths.dist + '/images'));
+		.pipe(gulp.dest(config.paths.dist + '/images'))
 	    .pipe(connect.reload());
 });
 
