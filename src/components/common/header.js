@@ -1,9 +1,9 @@
-"use strict"
+"use strict";
 var React = require("react");
 
 var Header = React.createClass({
     render: function(){
-        return(
+        return (
             <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Brand</a>
