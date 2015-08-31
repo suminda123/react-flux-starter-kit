@@ -1,17 +1,17 @@
-/*eslint-disable strict*/ //Disabling check because we can't run use strict mode. Need global vars.
+/*eslint-disable strict */
 
 var React = require('react');
 var Header = require('./common/header');
 var RouteHandler = require('react-router').RouteHandler;
-$ = jQuery = require('jquery');
+$ = jQuery = require('jQuery');
 
 var App = React.createClass({
   render: function() {
     return (
       <div>
-        <Header/>
+        <Header />
         <div className="container-fluid">
-          <RouteHandler/>
+          <RouteHandler />
         </div>
       </div>
     );

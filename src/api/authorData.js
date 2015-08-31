@@ -1,6 +1,5 @@
 module.exports = {
-  authors:
-  [
+  authors: [
     {
       id: 'cory-house',
       firstName: 'Cory',
