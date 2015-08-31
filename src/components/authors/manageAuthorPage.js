@@ -25,7 +25,7 @@ var ManageAuthorPage = React.createClass({
       author: { id: '', firstName: '', lastName: '' },
       errors: {},
       dirty: false
-    }
+    };
   },
 
   componentWillMount: function() {

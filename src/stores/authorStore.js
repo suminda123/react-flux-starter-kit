@@ -52,9 +52,9 @@ Dispatcher.register(function(action) {
       break;
 
     case ActionTypes.DELETE_AUTHOR:
-      var existingAuthor = _.find(_authors, {id: action.id});
-      var existingAuthorIndex = _.indexOf(_authors, existingAuthor);
-      _authors.splice(existingAuthorIndex, 1);
+      var existingAuthor1 = _.find(_authors, {id: action.id});
+      var existingAuthorIndex1 = _.indexOf(_authors, existingAuthor1);
+      _authors.splice(existingAuthorIndex1, 1);
       AuthorStore.emitChange();
       break;
 

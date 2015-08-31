@@ -1,4 +1,4 @@
-"use string";
+"use strict";
 
 var React = require('react');
 var Router = require('react-router');
@@ -11,7 +11,7 @@ var AuthorPage = React.createClass({
   getInitialState: function() {
     return {
       authors: AuthorStore.getAllAuthors()
-    }
+    };
   },
 
   componentWillMount: function() {
